@@ -55,3 +55,11 @@ button:active {
 button:hover {
   background-color: #9740ed;
 }
+#score{
+  background-color:#ed8e40 ;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: -390px;
+  margin-top: 10px;
+}

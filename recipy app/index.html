@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipes App</title>
     <link rel="stylesheet" href="styled.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="script.js" defer></script>
   </head>
   <body>
     <div class="mobile-container">
       <header>
         <input type="text">
-        <button id="search" >Search</button>
+        <button id="search" ><i class="fas fa-search"></i></button>
       </header>
-    </div>
-    <div class="fav-container">
-      <h3>Favorite Meals</h3>
-      <ul>
-        <li><img src="" alt=""><span></span></li>
-        <li><img src="" alt=""><span></span></li>
-        <li><img src="" alt=""><span></span></li>
-      </ul>
-
+      <div class="fav-container">
+        <h3>Favorite Meals</h3>
+        <ul class="fav-meals" id="fav-meals">
+        
+      
+        </ul>
+      </div>
+      <div class="meals" id="meals">
+        
+      </div>
     </div>
   </body>
 </html>
